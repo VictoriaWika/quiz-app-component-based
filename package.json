@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "prettier:write": "prettier --write .",
-    "stylelint": "npx stylelint \"**/*.css\"",
+    "stylelint": "stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint && eslint src",
     "start": "snowpack dev",
     "build": "snowpack build",
@@ -28,12 +28,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/macfrei/quiz-app.git"
+    "url": "git+https://github.com/VictoriaWika/quiz-app-component-based.git"
   },
   "bugs": {
-    "url": "https://github.com/macfrei/quiz-app/issues"
+    "url": "https://github.com/VictoriaWika/quiz-app-component-based/issues"
   },
-  "homepage": "https://github.com/macfrei/quiz-app#readme",
+  "homepage": "https://github.com/VictoriaWika/quiz-app-component-based#readme",
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.12.10",
