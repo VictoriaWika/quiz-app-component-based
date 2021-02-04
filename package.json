@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "prettier:write": "prettier --write .",
-    "stylelint": "npx stylelint \"**/*.css\"",
+    "stylelint": "stylelint \"**/*.css\"",
     "test": "htmlhint && prettier --check . && npm run stylelint && eslint src",
     "start": "snowpack dev",
     "build": "snowpack build",
