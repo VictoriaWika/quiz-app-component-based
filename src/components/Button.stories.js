@@ -1,8 +1,9 @@
-import html from './Button.js'
+import Button from './Button'
 
 export default {
   title: 'Button',
-  component: html,
+  component: Button,
 }
 
-export const base = () => html
+export const base = () => Button('Hello World')
+export const longText = () => Button('Hello World, this is a wonderfull day!')
