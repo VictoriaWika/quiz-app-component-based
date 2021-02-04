@@ -1,0 +1,63 @@
+{
+  "name": "quiz-app",
+  "version": "0.0.1",
+  "scripts": {
+    "prettier:write": "prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "test": "htmlhint && prettier --check . && npm run stylelint && eslint src",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,html,md}": "prettier --write",
+    "*.js": "eslint --cache --fix",
+    "*.css": "stylelint",
+    "*.html": "htmlhint"
+  },
+  "keywords": [],
+  "author": "Lene Frei",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macfrei/quiz-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/macfrei/quiz-app/issues"
+  },
+  "homepage": "https://github.com/macfrei/quiz-app#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@snowpack/plugin-webpack": "^2.3.0",
+    "@storybook/addon-a11y": "^6.1.16",
+    "@storybook/addon-actions": "^6.1.16",
+    "@storybook/addon-design-assets": "^6.1.16",
+    "@storybook/addon-essentials": "^6.1.16",
+    "@storybook/addon-links": "^6.1.16",
+    "@storybook/html": "^6.1.16",
+    "babel-loader": "^8.2.2",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint": "^7.19.0",
+    "htmlhint": "^0.14.2",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "prettier": "2.2.1",
+    "snowpack": "^3.0.11",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint": "^13.9.0"
+  }
+}

@@ -1,0 +1,22 @@
+.header {
+  text-align: center;
+  border: 1px solid hotpink;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+
+.header__title {
+  background-color: hotpink;
+  color: white;
+  padding-top: 8px;
+  margin: 0;
+}
+
+.header__subtitle {
+  display: block;
+  font-size: 75%;
+  background-color: white;
+  color: hotpink;
+  padding: 8px;
+}
