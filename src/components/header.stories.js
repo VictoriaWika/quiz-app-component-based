@@ -1,8 +1,8 @@
-import html from './header.html'
+import Header from './Header'
 
 export default {
   title: 'Header',
-  component: html,
+  component: Header,
 }
 
-export const base = () => html
+export const base = () => Header()
