@@ -1,4 +1,7 @@
 .Card {
   padding: 20px;
-  background: #eee;
+  background: rgba(255, 255, 255, 0.495);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+  text-align: center;
 }
