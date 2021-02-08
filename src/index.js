@@ -1,13 +1,27 @@
-import Button from './components/Button'
 import Header from './components/Header'
 import Card from './components/Card'
+import Navigation from './components/Navigation/Navigation'
+import createElement from './lib/createElement'
 
-const header = Header('Quiz App', 'May the best win!')
-document.body.append(header)
+const { el: headerEl, setText: setHeaderText } = Header(
+  'Quiz App',
+  'May the best win!'
+)
 
-const card = Card('What does git log do?', 'Show the history of commits')
-document.body.append(card)
+const navigation = Navigation(navigate)
 
-const button = Button('Click me!')
+function navigate(text) {
+  console.log(text)
+}
 
-document.body.append(button)
+const grid = createElement(
+  'div',
+  { className: 'appGrid' },
+  headerEl,
+  Card('Foo bar?', 'Bar baz!'),
+  navigation
+)
+
+setHeaderText('Create', 'a new card')
+
+document.body.append(grid)

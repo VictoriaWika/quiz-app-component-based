@@ -1,0 +1,11 @@
+.Navigation {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  height: 48px;
+}
+
+.Navigation > img {
+  height: 70%;
+  width: 100%;
+}
