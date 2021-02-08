@@ -1,4 +1,4 @@
-import createElement from '../lib/createElement'
+import createElement from '../../lib/createElement'
 import './Header.css'
 
 export default function Header(title, subtitle) {
