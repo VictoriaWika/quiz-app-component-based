@@ -1,4 +1,3 @@
-import Card from './components/Card'
 import CreateForm from './components/CreateForm'
 import Header from './components/Header'
 import HomePage from './components/HomePage/HomePage'
