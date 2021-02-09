@@ -3,3 +3,12 @@
   gap: 24px;
   padding: 20px;
 }
+
+.CreateForm label {
+  display: grid;
+}
+
+.CreateForm input {
+  padding: 4px;
+  border: 2px solid #ccc;
+}
