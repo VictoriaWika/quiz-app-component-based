@@ -22,3 +22,11 @@ input,
 button {
   font-size: 1em;
 }
+
+input {
+  width: 100%;
+}
+
+[hidden] {
+  display: none !important;
+}
