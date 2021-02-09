@@ -6,3 +6,7 @@
   text-align: center;
   margin: 10px 0;
 }
+
+.Card h2 {
+  font-size: 1em;
+}
