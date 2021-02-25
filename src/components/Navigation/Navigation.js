@@ -13,7 +13,6 @@ const buttonsConfig = [
 ]
 
 export default function Navigation(onNavigate) {
-  // destructuring assignment
   const buttons = buttonsConfig.map(({ svgPath, text }) => {
     const button = createElement(
       'button',
