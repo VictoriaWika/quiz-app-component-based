@@ -1,10 +1,10 @@
 .Navigation {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
   align-items: stretch;
   background: rgb(255, 255, 255);
   border-radius: 16px;
-  margin: 0 auto;
   width: 90%;
   position: fixed;
   bottom: 20px;
