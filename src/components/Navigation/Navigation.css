@@ -4,9 +4,11 @@
   align-items: stretch;
   background: rgb(255, 255, 255);
   border-radius: 16px;
-  width: 335px;
+  margin: 0 auto;
+  width: 90%;
   position: fixed;
   bottom: 20px;
+  left: 5%;
 }
 
 .Navigation__button {

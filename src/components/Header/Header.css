@@ -1,7 +1,8 @@
 .Header {
   position: fixed;
   top: 0;
-  width: 335px;
+  left: 5%;
+  width: 90%;
   text-align: center;
   background: rgb(255, 255, 255);
   border-bottom-left-radius: 20px;
