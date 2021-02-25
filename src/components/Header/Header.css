@@ -1,7 +1,9 @@
 .Header {
+  position: fixed;
+  top: 0;
+  width: 335px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.249);
-  backdrop-filter: blur(8px);
+  background: rgb(255, 255, 255);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;

@@ -2,6 +2,9 @@
   display: grid;
   gap: 24px;
   padding: 20px;
+  background: rgba(255, 255, 255, 0.934);
+  margin-top: 75px;
+  border-radius: 20px;
 }
 
 .CreateForm label {
@@ -10,5 +13,5 @@
 
 .CreateForm input {
   padding: 4px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
 }

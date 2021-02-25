@@ -10,7 +10,7 @@ export default function CreateForm(onSubmit) {
       <input required name="question" placeholder="What is...?">
       </label>
       <label>Answer:
-      <input required name="answer" placeholder="It is...?">
+      <input required name="answer" placeholder="It is...">
       </label>
       `,
   })
