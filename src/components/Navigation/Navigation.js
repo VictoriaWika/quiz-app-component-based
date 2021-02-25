@@ -1,8 +1,8 @@
-import createElement from '../../lib/createElement'
-import homeSVG from '../../icons/home.svg'
 import bookmarkSVG from '../../icons/bookmark.svg'
 import createSVG from '../../icons/create.svg'
+import homeSVG from '../../icons/home.svg'
 import settingsSVG from '../../icons/settings.svg'
+import createElement from '../../lib/createElement'
 import './Navigation.css'
 
 const buttonsConfig = [
