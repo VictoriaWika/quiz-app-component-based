@@ -5,13 +5,9 @@ import Navigation from './components/Navigation/Navigation'
 import createElement from './lib/createElement'
 
 const cards = []
-
 const header = Header('Quiz App')
-
 const navigation = Navigation(onNavigate) // dependency injection
-
 const homePage = HomePage()
-
 const createPage = CreatePage(onSubmit)
 
 const grid = createElement(

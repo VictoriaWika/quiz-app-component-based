@@ -1,12 +1,23 @@
 .Card {
   padding: 20px;
-  background: rgba(255, 255, 255, 0.249);
-  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.934);
   border-radius: 20px;
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 
 .Card h2 {
   font-size: 1em;
+}
+
+.Card p {
+  margin-bottom: 0;
+}
+
+.Card:first-child {
+  margin-top: 75px;
+}
+
+.Card:last-child {
+  margin-bottom: 90px;
 }

@@ -2,15 +2,17 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: stretch;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.249);
+  background: rgb(255, 255, 255);
   border-radius: 16px;
+  width: 335px;
+  position: fixed;
+  bottom: 20px;
 }
 
 .Navigation__button {
   display: grid;
   background: transparent;
-  grid-template-rows: 30px auto;
+  grid-template-rows: 30px;
   gap: 2px;
   border: none;
   font-size: 0.5em;
