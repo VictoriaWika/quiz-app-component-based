@@ -1,7 +1,7 @@
 import CreatePage from './components/CreatePage'
 import Header from './components/Header'
-import HomePage from './components/HomePage/HomePage'
-import Navigation from './components/Navigation/Navigation'
+import HomePage from './components/HomePage'
+import Navigation from './components/Navigation'
 import createElement from './lib/createElement'
 
 const cards = []
