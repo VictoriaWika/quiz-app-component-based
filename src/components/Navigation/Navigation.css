@@ -11,7 +11,7 @@
   left: 5%;
 }
 
-.Navigation__button {
+.Navigation__icon {
   display: grid;
   background: transparent;
   grid-template-rows: 30px;
@@ -21,7 +21,7 @@
   padding: 5px;
 }
 
-.Navigation__button > img {
+.Navigation__icon > img {
   height: 100%;
   width: 100%;
 }

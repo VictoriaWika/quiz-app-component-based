@@ -16,7 +16,7 @@ export default function Navigation(onNavigate) {
   const buttons = buttonsConfig.map(({ svgPath, text }) => {
     const button = createElement(
       'button',
-      { className: 'Navigation__button' },
+      { className: 'Navigation__icon' },
       createElement('img', { src: svgPath, alt: text }),
       text
     )
